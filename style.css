@@ -173,6 +173,7 @@
   align-items: center;
   flex-direction: column;
   color: black;
+  margin-left: 20px;
 }
 .paraMain h2 {
   position: relative;
@@ -218,4 +219,8 @@
   text-align: center;
   padding: 20px;
   font-size: 14px;
+}
+.navRightBottom {
+  display: flex;
+  justify-content: space-between;
 }
