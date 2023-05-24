@@ -7,6 +7,8 @@ body {
 * {
   margin: 0;
   padding: 0;
+  font-weight: 600;
+  font-family: "segoe-ui";
 }
 
 .main {
@@ -83,6 +85,14 @@ body {
   width: 40%;
   position: relative;
   right: 100px;
+  animation-name: drop;
+  animation-duration: 4s;
+}
+@keyframes drop {
+  from {
+  }
+  to {
+  }
 }
 .btn1 {
   width: 20%;
@@ -90,9 +100,12 @@ body {
   top: 20px;
   border-radius: 5px;
   padding: 15px;
+  margin-bottom: 10px;
   background-color: #00b3a3;
   border: none;
   cursor: pointer;
+  border-radius: 100px;
+  color: #fff;
 }
 
 .para {
