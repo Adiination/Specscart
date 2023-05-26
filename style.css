@@ -19,9 +19,12 @@ body {
   position: relative;
   display: flex;
   background-color: rgb(237, 233, 233);
-  height: 500px;
+  height: 400px;
   width: 100%;
   top: 30px;
+}
+.para {
+  margin-top: 0px;
 }
 
 .navLogo {
@@ -376,11 +379,12 @@ p {
 }
 .home-trial-text {
   color: #424242;
+  margin-left: 0px;
 }
 .cart-text {
   margin-top: 50px;
   margin-left: 0px;
-  color: ;
+  color: #424242;
 }
 .title {
   font-size: 30px;
