@@ -39,7 +39,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-around;
-  padding: 5px 50px;
+  padding: 0px 30px;
   height: 70px;
 }
 
